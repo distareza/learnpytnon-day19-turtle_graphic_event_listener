@@ -21,7 +21,7 @@ while True:
 
 contestant = []
 
-top_position = ( len(colors) * distance_size / 2 )
+top_position = (len(colors) * distance_size / 2)
 
 for color in colors:
     turtle = Turtle(shape="turtle")
