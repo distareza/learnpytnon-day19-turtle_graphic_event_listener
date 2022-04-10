@@ -35,7 +35,7 @@ for color in colors:
 winner = {}
 while not winner:
     for turtle in contestant:
-        turtle.forward(random.randint(0,10))
+        turtle.forward(random.randint(0, 10))
         position = turtle.xcor()
         if position > finish_line:
             winner = turtle
